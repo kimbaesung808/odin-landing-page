@@ -1,3 +1,24 @@
 body {
   font-family: Roboto;
 }
+
+h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.header {
+  background-color: #1F2937;
+}
+
+.links,
+.subtext {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+}
