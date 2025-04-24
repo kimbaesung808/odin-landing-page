@@ -24,11 +24,11 @@ a {
   text-decoration: none;
 }
 
-.header {
+.section-one {
   background-color: #1F2937;
 }
 
-.header-content {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,7 +58,7 @@ a {
   font-size: 18px;
 }
 
-.header-content img {
+.header img {
   width: 500px;
   height: 250px;
 }
