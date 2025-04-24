@@ -4,6 +4,7 @@ body {
 }
 
 h1 {
+  margin: 0;
   color: #F9FAF8;
   font-size: 48px;
   font-weight: 900;
@@ -12,7 +13,7 @@ h1 {
 ul {
   display: flex;
   list-style-type: none;
-  margin: 20px 200px 0 0;
+  margin: 20px 0 0;
   padding: 0;
   gap: 20px;
   font-size: 18px;
@@ -27,6 +28,18 @@ a {
   background-color: #1F2937;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+  height: 500px;
+}
+
+.hero {
+  width: 450px;
+}
+
 .logo {
   margin-top: 20px;
   color: #F9FAF8;
@@ -37,10 +50,24 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 200px;
+  margin: 0 200px;
 }
 
 .subtext {
   color: #E5E7EB;
   font-size: 18px;
+}
+
+.header-content img {
+  width: 500px;
+  height: 250px;
+}
+
+.hero button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: #FFF;
+  background-color: #3882F6;
 }
