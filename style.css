@@ -77,6 +77,13 @@ a {
   background-color: #E5E7EB;
 }
 
+.quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+}
+
 .header img {
   width: 500px;
   height: 250px;
