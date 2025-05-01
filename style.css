@@ -24,6 +24,15 @@ a {
   text-decoration: none;
 }
 
+button {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  color: #FFF;
+  background-color: #3882F6;
+  font-size: 18px;
+}
+
 .section-one {
   background-color: #1F2937;
 }
@@ -126,12 +135,11 @@ a {
 }
 
 .hero button {
-  width: 120px;
-  height: 40px;
   border: none;
-  border-radius: 10px;
-  color: #FFF;
-  background-color: #3882F6;
+}
+
+.section-four button {
+  border: solid #FFF;
 }
 
 .section-four .text-one {
