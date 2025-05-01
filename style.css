@@ -77,14 +77,24 @@ a {
   background-color: #E5E7EB;
 }
 
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 0 auto;
+}
+
 .quote {
+  margin-top: 100px;
+  margin-bottom: 0;
   color: #1F2937;
   font-size: 36px;
   font-style: italic;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .speaker {
+  align-self: flex-end;
   color: #1F2937;
   font-size: 24px;
   font-weight: 600;
