@@ -110,7 +110,12 @@ button {
 }
 
 .section-four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 100px 200px;
+  padding-left: 100px;
+  padding-right: 100px;
   height: 150px;
   border-radius: 10px;
   background-color: #3882F6;
