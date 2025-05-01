@@ -58,6 +58,14 @@ a {
   font-size: 18px;
 }
 
+.information-header {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin: 40px 0;
+}
+
 .header img {
   width: 500px;
   height: 250px;
