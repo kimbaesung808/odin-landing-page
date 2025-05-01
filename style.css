@@ -71,6 +71,11 @@ a {
   height: 250px;
 }
 
+.info img {
+  width: 200px;
+  height: 200px;
+}
+
 .hero button {
   width: 120px;
   height: 40px;
