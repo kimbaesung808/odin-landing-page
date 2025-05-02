@@ -82,6 +82,9 @@ button {
 }
 
 .section-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 400px;
   background-color: #E5E7EB;
 }
@@ -94,8 +97,7 @@ button {
 }
 
 .quote {
-  margin-top: 100px;
-  margin-bottom: 0;
+  margin: 0;
   color: #1F2937;
   font-size: 36px;
   font-style: italic;
